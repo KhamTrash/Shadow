@@ -1,0 +1,67 @@
+body {
+  background: white;
+}
+p {
+  font-family: serif;
+  font-size: 20px;
+}
+h2 {
+  font-weight: bold;
+  color: gold;
+  font-family: serif;
+  font-size: 30px;
+  font-style: italic; 
+  text-decoration-line: underline;
+}
+
+.context {
+display: flex;
+  flex-wrap: wrap;
+  font-style: italic;
+
+}
+
+.Shadow {
+  background-color: darkred;
+}
+
+.heading {
+  color: ghostwhite;
+  font-family: serif;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+.shdw {
+width: 250px;
+  float: left;
+  border-radius: 30px;
+}
+
+.context {
+  display: flex;
+ justify-content: space-around;
+}
+
+.link:hover {
+  color: white;
+  font-size: 20px;
+}
+
+.P {
+  font-style: italic; 
+  color: gainsboro;
+}
+
+.image {
+
+  align-content: space-between;
+  width: 200px;
+  border-radius: 30px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: gold;
+}
